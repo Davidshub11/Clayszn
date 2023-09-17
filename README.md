@@ -1,8 +1,8 @@
-- 👋 Hi, I’m @Clayszn
-- 👀 I’m interested in web development, coding and programming
-- 🌱 I’m currently learning 
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- 👋 Hi, I’m Ogola David
+- 👀 I’m interested in web development, coding and programming as a whole
+- 🌱 I’m currently learning JavaScript Mastery
+- 💞️ I’m looking to collaborate on Web development and implementing Javascript on both bad and front end
+- 📫 You can reach me on davidogola10@gmail.com
 
 <!---
 Clayszn/Clayszn is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
