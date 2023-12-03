@@ -1,7 +1,7 @@
 - 👋 Hi, I’m Ogola David
 - 👀 I’m interested in web development, coding and programming as a whole
-- 🌱 I’m currently learning JavaScript Mastery
-- 💞️ I’m looking to collaborate on Web development and implementing Javascript on both bad and front end
+- 🌱 I’m currently fullstack web developement
+- 💞️ I’m looking to collaborate on Web development and implementing codes and programs on both back and front end
 - 📫 You can reach me on davidogola10@gmail.com
 
 <!---
