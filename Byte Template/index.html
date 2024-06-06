@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="icon" type="image/svg+xml" href="favicon.svg" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bytechat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap"rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.css"/>
+    <script src="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.js"defer></script>
+  </head>
+
+  <body>
+    <header class="primary-header">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#">
+            <div class="logo">
+              <h1><img src="images/icon.png" alt="BYTECHAT" style="height:60px;width:80px;"></h1>
+          </div>
+          </a>
+          <button
+            class="mobile-nav-toggle"
+            aria-controls="primary-navigation"
+            aria-expanded="false">
+            <span class="visually-hidden">Menu</span>
+          </button>
+          <nav class="primary-navigation" id="primary-navigation">
+            <ul aria-label="Primary" role="list" class="nav-list">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Project</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+          <button class="button | display-sm-none display-md-inline-flex">
+            Sign in
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero | text-center-sm-only padding-block-900">
+        <div class="container">
+          <div class="even-columns">
+            <div class="flow">
+              <h1 class="fs-primary-heading fw-bold">
+                Connect. Communicate. Collaborate.<br> With ByteChat.
+              </h1>
+              <p>
+                "Transform the way you chat with our secure, fast, and intuitive messaging platform."
+              </p>
+              <button class="button">Get Started</button>
+            </div>
+            <div class="iconlogo">
+              <img src="images/Iconlogo.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sales-points | padding-block-900">
+        <div class="container">
+          <div class="even-columns">
+            <div
+              class="sales-points__blog | flow text-center-sm-only margin-bottom-700"
+              style="--flow-spacer: 1.5rem">
+              <h2 class="fs-secondary-heading fw-bold">
+                What's different about Bytechat?
+              </h2>
+              <p>
+                Bytechat appears to differentiate itself by offering a 
+                streamlined and comprehensive toolkit tailored specifically for
+                modern digital product teams while minimizing complexity
+              </p>
+            </div>
+            <div>
+              <ul class="numbered-items | flow" role="list">
+                <li>
+                  <div class="flow" style="--flow-spacer: 1em">
+                    <h3 class="numbered-items__title | fs-600 fw-bold">
+                      Aim
+                    </h3>
+                    <p class="numbered-items__body" data-width="wide">
+                      Bytechat aims to provide a user-friendly and efficient 
+                      platform that fulfills the diverse needs of such teams 
+                      without overwhelming them with unnecessary features or 
+                      convoluted interfaces
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="flow" style="--flow-spacer: 1em">
+                    <h3 class="numbered-items__title | fs-600 fw-bold">
+                      Mission
+                    </h3>
+                    <p class="numbered-items__body" data-width="wide">
+                      To focus on simplicity and relevance to digital product teams 
+                      could make Bytechat stand out among other collaboration and 
+                      communication tools in the market.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="flow" style="--flow-spacer: 1em">
+                    <h3 class="numbered-items__title | fs-600 fw-bold">
+                      Everything you need in one place
+                    </h3>
+                    <p class="numbered-items__body" data-width="wide">
+                      Stop jumping from one service to another to communicate,
+                      share documents.
+                      Manage offers an all-in-one team productivity solution.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="carousel | padding-block-900 text-center">
+        <h2 class="fs-secondary-heading fw-bold">Founders of ByteChat</h2>
+        <!-- Carousel here -->
+        <ul class="slider">
+          <li>
+            <img src="images/avatar-anisha.png" alt="" />
+            <div class="slider-content | flow" style="--flow-spacer: 1rem">
+              <h3 class="fw-bold">David Ogola</h3>
+              <p data-width="wide">
+                “Bytechat has supercharged office and team’s workflow. The ability to
+                maintain visibility on larger milestones at all times keeps
+                everyone motivated.”
+              </p>
+            </div>
+          </li>
+          <li>
+            <img src="images/avatar-ali.png" alt="" />
+            <div class="slider-content | flow" style="--flow-spacer: 1rem">
+              <h3 class="fw-bold">Vincent Tatira</h3>
+              <p data-width="wide">
+                “We have been able to drawothers users from so many platforms
+                since finding out about our services.
+                There is no more cross-channel confusion and
+                everyone is much more focused.”
+              </p>
+            </div>
+          </li>
+          <li>
+            <img src="images/avatar-richard.png" alt="" />
+            <div class="slider-content | flow" style="--flow-spacer: 1rem">
+              <h3 class="fw-bold">Richard Watts</h3>
+              <p data-width="wide">
+                “Manage allows us to provide structure and process. It keeps us
+                organized and focused. I can’t stop recommending them to
+                everyone I talk to!”
+              </p>
+            </div>
+          </li>
+          <li>
+            <img src="images/avatar-shanai.png" alt="" />
+            <div class="slider-content | flow" style="--flow-spacer: 1rem">
+              <h3 class="fw-bold">Shanai Gough</h3>
+              <p data-width="wide">
+                “Their software allows us to track, manage and collaborate on
+                our projects from anywhere. It keeps the whole team in-sync
+                without being intrusive.”
+              </p>
+            </div>
+          </li>
+        </ul>
+        <button class="button">Get Started</button>
+      </section>
+
+      <section
+        class="cta | margin-top-900 padding-block-900 bg-accent-400 text-neutral-100">
+        <div class="container">
+          <div class="even-columns vertical-align-center">
+            <div>
+              <p class="fs-primary-heading fw-bold">
+                Simplify how your team communicates today.
+              </p>
+            </div>
+            <div class="justify-self-end-md">
+              <button class="button" data-type="inverted">Get Started</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer
+      class="primary-footer | padding-block-700 bg-neutral-900 text-neutral-100">
+      <div class="container">
+        <div class="primary-footer__wrapper">
+          <div class="logo">
+            <h1><img src="images/icon.png" alt="BYTECHAT" style="height:60px;width:80px;"></h1>
+        </div>
+
+          <ul class="social-list" role="list" aria-label="Social links">
+            <li>
+              <a aria-label="facebook" href="#">
+                <svg class="social-icon">
+                  <use xlink:href="images/social-icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a aria-label="youtube" href="#">
+                <svg class="social-icon">
+                  <use xlink:href="images/social-icons.svg#icon-youtube"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a aria-label="twitter" href="#">
+                <svg class="social-icon">
+                  <use xlink:href="images/social-icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <!-- <li>
+              <a aria-label="pinterest" href="#">
+                <svg class="social-icon">
+                  <use
+                    xlink:href="images/social-icons.svg#icon-pinterest"
+                  ></use></svg
+              ></a>
+            </li> -->
+            <li>
+              <a aria-label="instagram" href="#">
+                <svg class="social-icon">
+                  <use
+                    xlink:href="images/social-icons.svg#icon-instagram"
+                  ></use></svg
+              ></a>
+            </li>
+          </ul>
+
+          <div class="primary-footer__nav-wrapper">
+            <nav class="footer-nav">
+              <ul
+                role="list"
+                aria-label="Footer"
+                class="flow"
+                style="--flow-spacer: 1em"
+              >
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <!-- <div class="primary-footer-form"> -->
+          <form class="primary-footer__form" action="">
+            <input type="email" />
+            <button class="button" data-shadow="none">Go</button>
+          </form>
+          <p class="primary-footer__copyright">
+            Copyright 2020. All Rights Reserved
+          </p>
+          <!-- </div> -->
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
