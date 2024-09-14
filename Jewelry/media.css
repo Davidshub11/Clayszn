@@ -1,7 +1,6 @@
 @media only screen and (max-width: 800px){
     .listitems{
         flex-direction: column;
-
     }
     .header .logo{
         height:5vh;
@@ -19,8 +18,12 @@
         font-size: 30px;
         font-weight: 2800;
     }
+    .mySlides {
+        width: fit-content;
+        height: fit-content;
+    }
 }
-@media only screen and (max-width: 1440px){
+@media only screen and (max-width: 1024px){
     .header .logo{
         height: 6.5vh;
     }
