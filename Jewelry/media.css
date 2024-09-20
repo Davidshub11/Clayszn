@@ -18,13 +18,23 @@
         font-size: 30px;
         font-weight: 2800;
     }
-    .mySlides {
-        width: fit-content;
-        height: fit-content;
-    }
+   
 }
 @media only screen and (max-width: 1024px){
     .header .logo{
         height: 6.5vh;
+    }
+    .profile img {
+        height:200px;
+        width:200px;
+        border-radius: 100px;
+    }
+    .title h1{
+        font-weight: 3500;
+        font-size: 35px;
+    }
+    .custom h1{
+        font-size: 30px;
+        font-weight: 2800;
     }
 }
