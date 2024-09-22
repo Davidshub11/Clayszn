@@ -1,40 +1,55 @@
-@media only screen and (max-width: 800px){
-    .listitems{
+@media only screen and (max-width: 1024px) {
+    .header .logo {
+        height: 5vh;
+    }
+    .slideshow-container {
+        white-space: normal;
+    }
+
+    .myslides {
+        margin: auto;
+        width: 100%;
+        /* Full width on small screens */
+        justify-content: center;
+        align-content: center;
+    }
+
+    .myslides .profile img {
+        height: 200px;
+        width: 200px;
+        border-radius: 100px;
+    }
+
+    .profile {
+        flex-direction: row;
+        align-self: center;
+    }
+
+    .title {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .title h1 {
+        font-weight: 2000;
+        font-size: 28px;
+    }
+
+    .title .p {
+        font-size: 10px;
+    }
+
+    .custom h1 {
+        font-size: 28px;
+        font-weight: 2800;
+    }
+    .listitems {
         flex-direction: column;
     }
-    .header .logo{
-        height:5vh;
-    }
-    .profile img {
-        height:200px;
-        width:200px;
-        border-radius: 100px;
-    }
-    .title h1{
-        font-weight: 3500;
-        font-size: 35px;
-    }
-    .custom h1{
-        font-size: 30px;
-        font-weight: 2800;
-    }
-   
 }
-@media only screen and (max-width: 1024px){
-    .header .logo{
-        height: 6.5vh;
-    }
-    .profile img {
-        height:200px;
-        width:200px;
-        border-radius: 100px;
-    }
-    .title h1{
-        font-weight: 3500;
-        font-size: 35px;
-    }
-    .custom h1{
-        font-size: 30px;
-        font-weight: 2800;
+
+@media only screen and (max-width: 1024px) {
+    .header .logo {
+        height: 4.5vh;
     }
 }
