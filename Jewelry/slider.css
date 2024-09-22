@@ -51,7 +51,7 @@
 }
 
 
-.myslides >p {
+.myslides > p {
 display: flex;
 text-align: center;
 align-self: center;
