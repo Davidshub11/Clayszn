@@ -55,10 +55,12 @@
 display: flex;
 text-align: center;
 align-self: center;
+flex-wrap: wrap;
 }
 
 .myslides > p:last-child{
   font-size: 15px;
   color: #A0A0A0;
   width: auto; 
+  flex-wrap: wrap;
 }

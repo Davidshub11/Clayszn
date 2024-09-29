@@ -74,6 +74,7 @@ body{
     justify-content: center;
     height: 400px;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .profile {
@@ -83,6 +84,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     padding: 0px 5px;
+    flex-wrap: wrap;
 }
 
 /* .title>* {
@@ -94,6 +96,7 @@ body{
     flex-direction: column;
     /* border: 1px solid red; */
     text-align: start;
+    flex-wrap: wrap;
 }
 
 
@@ -101,6 +104,7 @@ body{
     font-weight: 5000;
     font-size: 50px;
     display: flex;
+    flex-wrap: wrap;
     /* border: 1px solid red;  */
 }
 
@@ -113,6 +117,7 @@ body{
     align-self:flex-start;
     /* border: 1px solid blue; */
     text-align: start;
+    flex-wrap: wrap;
 }
 
 .myslides .profile img {

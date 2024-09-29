@@ -8,7 +8,7 @@
     }
 
     .myslides {
-        /* margin: auto; */
+        margin: auto;
         /* Full width on small screens */
         width: 100%;
         justify-content: center;
@@ -16,9 +16,9 @@
     }
 
     .myslides .profile img {
-        height: 200px;
-        width: 200px;
-        border-radius: 100px;
+        height: 160px;
+        width: 160px;
+        border-radius: 80px;
     }
 
     .profile {
@@ -34,11 +34,11 @@
 
     .title h1 {
         font-weight: 2000;
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .title .p {
-        font-size: 10px;
+        font-size: 7px;
     }
 
     .myslides p {
@@ -49,18 +49,18 @@
     }
 
     .myslides .slider1 {
-        height: 160px;
-        width: 200px;
+        height: 120px;
+        width: 160px;
     }
 
     .myslides .slider2 {
-        height: 160px;
-        width: 200px;
+        height: 120px;
+        width: 160px;
     }
 
 
     .custom h1 {
-        font-size: 28px;
+        font-size: 24px;
         font-weight: 2800;
     }
 
@@ -70,6 +70,9 @@
 
     .header .logo {
         height: 5vh;
+    }
+    .footer {
+        flex-wrap: wrap;
     }
 }
 
